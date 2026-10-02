@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ttp"
+version="${file.jarVersion}"
+displayName="TTP - Tab Teleport"
+description='''
+按Tab显示在线玩家列表，点击TP按钮传送到玩家身边
+'''
+
+[[dependencies.ttp]]
+   modId="forge"
+   mandatory=true
+   versionRange="[47,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.ttp]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20.1,1.21)"
+   ordering="NONE"
+   side="BOTH"

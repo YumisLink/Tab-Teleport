@@ -1,0 +1,42 @@
+# Gradle / Forge
+.gradle/
+build/
+run/
+out/
+classes/
+logs/
+*.log
+hs_err_pid*
+replay_pid*
+
+# Eclipse
+bin/
+.metadata/
+.settings/
+.classpath
+.project
+*.launch
+eclipse/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated sources (data generators)
+src/generated/
+
+# Forge MDK leftovers
+forge*changelog.txt
+
+# Leftover cache folder at the repo root (do not match com/ttp or assets/ttp)
+/ttp/
