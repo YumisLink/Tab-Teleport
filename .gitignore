@@ -1,13 +1,39 @@
-# Gradle / Forge
+# Gradle / Forge / NeoForge
 .gradle/
+.gradle-*/
 build/
 run/
+runClient/
+runServer/
 out/
 classes/
+*.class
+
+# Runtime logs and JVM diagnostics
 logs/
 *.log
+*.log.*
+crash-reports/
+.mixin.out/
 hs_err_pid*
 replay_pid*
+*.hprof
+*.heapdump
+*.jfr
+
+# Temporary files, local caches, and editor backups
+.tmp/
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*~
 
 # Eclipse
 bin/
@@ -29,8 +55,33 @@ eclipse/
 
 # OS
 .DS_Store
+._*
 Thumbs.db
+ehthumbs.db
 desktop.ini
+
+# Local environment files (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Local Minecraft installations, worlds, and server state
+.minecraft/
+/saves/
+/screenshots/
+/world/
+/world_nether/
+/world_the_end/
+/server.properties
+/eula.txt
+/usercache.json
+/usernamecache.json
+/ops.json
+/whitelist.json
+/banned-ips.json
+/banned-players.json
 
 # Generated sources (data generators)
 src/generated/
