@@ -1,0 +1,21 @@
+{
+  "key.ttp.category": "TTP",
+  "key.ttp.open_list": "Open Player List",
+  "key.ttp.mark": "Place Marker",
+  "ttp.screen.title": "Online Players",
+  "ttp.screen.teleport": "Teleport",
+  "ttp.screen.marked": "Marked",
+  "ttp.screen.header_tp": "TP",
+  "ttp.screen.tp": "TP",
+  "ttp.screen.no_players": "No other players online",
+  "ttp.screen.replace_picker": "Replace which marker?",
+  "ttp.marker.default_name": "Mark %s",
+  "ttp.msg.target_not_find": "Target player not found",
+  "ttp.msg.target_no_safe": "Target player is not safe",
+  "ttp.msg.teleported": "Teleported!",
+  "ttp.msg.mark_fail": "Must aim at a block",
+  "ttp.msg.mark_success": "Marked %s %s %s %s",
+  "ttp.msg.mark_queue_full": "Queue full — choose a slot to replace",
+  "ttp.msg.no_temp_marker": "That player has no marker",
+  "ttp.msg.mark_empty_slot": "That slot is empty"
+}

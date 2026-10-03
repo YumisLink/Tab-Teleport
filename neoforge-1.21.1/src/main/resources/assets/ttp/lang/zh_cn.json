@@ -1,0 +1,21 @@
+{
+  "key.ttp.category": "TTP",
+  "key.ttp.open_list": "打开玩家列表",
+  "key.ttp.mark": "放置标记",
+  "ttp.screen.title": "在线玩家",
+  "ttp.screen.teleport": "传送",
+  "ttp.screen.marked": "标记点",
+  "ttp.screen.header_tp": "传送",
+  "ttp.screen.tp": "传送",
+  "ttp.screen.no_players": "没有其他在线玩家",
+  "ttp.screen.replace_picker": "替换哪个标记？",
+  "ttp.marker.default_name": "标记 %s",
+  "ttp.msg.target_not_find": "未找到目标玩家",
+  "ttp.msg.target_no_safe": "目标玩家不安全",
+  "ttp.msg.teleported": "传送成功！",
+  "ttp.msg.mark_fail": "必须瞄准方块",
+  "ttp.msg.mark_success": "已标记 %s %s %s %s",
+  "ttp.msg.mark_queue_full": "队列已满，请选择要替换的槽位",
+  "ttp.msg.no_temp_marker": "该玩家没有标记点",
+  "ttp.msg.mark_empty_slot": "该槽位为空"
+}

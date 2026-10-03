@@ -1,5 +1,7 @@
 # Gradle / Forge
 .gradle/
+/.gradle-neoforge/
+/.gradle-neoforge/
 build/
 run/
 out/

@@ -21,3 +21,14 @@ Forge 客户端模组：用 Tab 打开面板，快速传送与坐标标记。
 ```
 
 产物：`build/libs/ttp-1.0.0.jar`
+
+## NeoForge 1.21.1
+
+独立移植位于 [`neoforge-1.21.1`](neoforge-1.21.1/README.md)，使用 Java 21 和 Gradle 8.8。
+
+```powershell
+cd neoforge-1.21.1
+.\gradlew.bat build --no-daemon
+```
+
+产物：`neoforge-1.21.1/build/libs/ttp-neoforge-1.21.1-1.0.1.jar`。客户端和服务端都需要安装。

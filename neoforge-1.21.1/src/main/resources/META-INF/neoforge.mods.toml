@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ttp"
+version="${file.jarVersion}"
+displayName="TTP - Tab Teleport"
+description='''
+Tab player teleport, temporary markers, and persistent marker queues.
+'''
+
+[[dependencies.ttp]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.235,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ttp]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
