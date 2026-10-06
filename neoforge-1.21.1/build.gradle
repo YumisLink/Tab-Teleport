@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.ttp'
-version = '1.0.1'
+version = '1.0.2'
 base.archivesName = 'ttp-neoforge-1.21.1'
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 

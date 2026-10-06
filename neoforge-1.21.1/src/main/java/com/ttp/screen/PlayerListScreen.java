@@ -147,7 +147,7 @@ public class PlayerListScreen extends Screen {
 
     @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
-        this.renderBackground(graphics, mouseX, mouseY, partialTick);
+        super.renderBackground(graphics, mouseX, mouseY, partialTick);
         int px = panelX();
         int py = panelY();
         int ph = panelHeight();
@@ -203,11 +203,13 @@ public class PlayerListScreen extends Screen {
                     this.width / 2, bodyY + 40, 0x888888);
         }
 
-        if (this.nameEditBox != null) {
-            this.nameEditBox.render(graphics, mouseX, mouseY, partialTick);
-        }
-
         super.render(graphics, mouseX, mouseY, partialTick);
+    }
+
+    @Override
+    public void renderBackground(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+        // Screen.render calls this again before rendering widgets in 1.21.1.
+        // The background was already rendered before the panel; blurring it again would blur our text.
     }
 
     @Override

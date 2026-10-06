@@ -64,7 +64,7 @@ public class QueueReplaceScreen extends Screen {
 
     @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
-        this.renderBackground(graphics, mouseX, mouseY, partialTick);
+        super.renderBackground(graphics, mouseX, mouseY, partialTick);
         int panelW = 280;
         int panelH = 30 + QueueSlot.SLOT_COUNT * 28 + 16;
         int panelX = (this.width - panelW) / 2;
@@ -73,6 +73,12 @@ public class QueueReplaceScreen extends Screen {
         graphics.fill(panelX + 1, panelY + 1, panelX + panelW - 1, panelY + panelH - 1, 0xFF1A1A2E);
         graphics.drawCenteredString(this.font, this.title, this.width / 2, panelY + 8, 0xFFFFFF);
         super.render(graphics, mouseX, mouseY, partialTick);
+    }
+
+    @Override
+    public void renderBackground(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+        // Screen.render calls this again before rendering widgets in 1.21.1.
+        // The background was already rendered before the panel; blurring it again would blur our title.
     }
 
     @Override
